@@ -1,0 +1,60 @@
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+body{
+    background-color: rgb(199, 187, 187);
+    
+}
+input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px sloid rgb(36, 32, 32);
+    border-radius: 10px;
+   
+}
+input :hover{
+    padding: 7px;
+    background-color: rgb(148, 141, 141);
+}
+input[type="radio"]{
+    width: auto;
+    margin-right: 20px;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+    width:  auto;
+}
+
+h1{
+    text-align: center;
+    align-content: center;
+}
+
+form{
+   width: 70%;
+    margin: 0 auto;
+    background-color: rgb(167, 161, 161);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(158, 148, 148);}
+
+
+form :hover{
+    background-color: rgb(165, 160, 170);
+}
+fieldset{
+    border: none;
+    margin-top: 15px;
+}
+input[type="checkbox"]{
+    margin-top: 10px;
+}
+button{ margin-top: 7px;
+    width: 120px;
+   text-align: center;
+     border-radius: 10px;
+     margin-left: 200px;
+     height: 50px;
+}

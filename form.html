@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   
+    <form action="submit">
+        <H1>CONTACT FORM</H1>
+        <label for="Name">Name:</label>
+         <input type="text" name="Name">
+         <label for="Email">Email:</label>
+         <input type="Email" name="Email">
+         <label for="Contact">Contact:</label>
+        <input type="Number" name="Contact">
+        <h3>Select any Department:</h3>
+        <select name="Select Department" id="select">
+      
+         
+            <option value="Web Development">Web Development</option>
+            <option value="Graphic Designing">Graphic Designing</option>
+            <option value="Textiles">Textiles</option>
+            <option value="MS Word">MS Word</option>  
+        </select>
+        <fieldset>
+            <legend><b>Gender</b></legend>
+            <input type="Radio" name="Gender" value="Male">Male
+            <input type="Radio" name="Gender" value="Female">Female
+
+        </fieldset>
+        <fieldset>
+        <b>Timings: </b>
+        <input type="checkbox" name="Timings" value="9:00am ">9:00am 
+        <input type="checkbox" name="Timings" value="10:00am ">10:00am
+        <input type="checkbox" name="Timings" value="11:00am ">11:00am
+        <input type="checkbox" name="Timings" value="12:00pm ">12:00pm
+    </fieldset>
+    <fieldset>
+         <label for="Message"><b>Message</b></label>
+         <textarea name="Message" id="Message"></textarea>
+        </fieldset>
+         <button  type="Submit">Submit</button>
+
+        
+       
+    </form>
+</body>
+</html>
